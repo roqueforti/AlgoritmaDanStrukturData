@@ -1,19 +1,25 @@
 import java.util.Scanner;
 
 public class Nasabah {
-    public int id;
-    public String nama;
-    public String alamat;
-    public int noHP;
-    public int noRek;
-    public int saldo;
-    public float jmlHutang;
-    public boolean statusAktif;
-    Scanner sc = new Scanner(System.in);
+    private int id;
+    String nama;
+    String alamat;
+    int noHP;
+    int saldo;
+    float jmlHutang;
+    boolean statusAktif;
 
-    public int lihatSaldo() {
-        System.out.println("Saldo: " + saldo);
-        return saldo;
+    public Nasabah (int id, String nama, String alamat, int noHP, int saldo, float jmlHutang, boolean statusAktif) {
+        this.id = id;
+        this.nama = nama;
+        this.noHP = noHP;
+        this.saldo = saldo;
+        this.jmlHutang = jmlHutang;
+        this.statusAktif = statusAktif;
+    }
+
+    public int getIdRekening() {
+        return this.id;
     }
 
     public int tarikTunai(int jmlTarik) {

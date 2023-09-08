@@ -176,3 +176,24 @@ Tidak bisa, karena setiap elemen pada array hanya dapat diisi 1 objek
 
 ## 2.7 Operasi Matematika Atribut Object Array
 
+<img src= "Operasi-Matematika-Atribut-Object-Array.png">
+
+Pertanyaan
+1. Dapatkah konstruktor berjumlah lebih dalam satu kelas? Jelaskan dengan contoh!
+
+Jawab:
+
+Bisa
+
+Balok balok1 = new Balok();
+Balok balok2 = new Balok("John", 12345);
+
+2. Jika diketahui terdapat class Segitiga seperti berikut ini:
+
+public class Segitiga {
+    public int alas;
+    public int tinggi;
+}
+
+Tambahkan konstruktor pada class Segitiga tersebut yang berisi parameter int a, int t yang masing-masing digunakan untuk mengisikan atribut alas dan tinggi.
+
