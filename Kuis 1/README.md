@@ -4,7 +4,7 @@ Kasus:
 Andi adalah seorang pemilik supermarket terbesar di Indonesia. Dia berencana untuk melakukan perbaikan proses bisnis yaitu pengadaan system kasir self-service di supermarket miliknya. Dengan adanya system ini, pelanggan bisa langsung menginputkan nama item, jumlah item, dan harga item yang dibeli. Sistem ini juga mampu mengakomodasi pembeli dari luar kota untuk bisa membeli langsung barang dari supermarket tersebut. Hasil analisis Andi menemukan bahwa dia membutuhkan programmer untuk membuatkan fitur-fitur tersebut. 
 
 # Flowchart
-
+<img src= "flowchartkuis1.drawio.png">
 
 # Fungsi dan alur kerja
 
